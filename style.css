@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=PT+Serif:ital,wght@1,700&family=Public+Sans:wght@200&family=Seymour+One&family=Source+Sans+Pro:wght@200&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+   
+   
+}
+
+.galeria{
+    width: 30%;
+    margin:20%;
+   
+  
+}
+section{
+   overflow: hidden;
+   
+}
+
+.texto{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 25%;
+}
+
+#titulo{
+    text-transform: uppercase;
+}
+
+
+.fotos{
+    display: flex;
+    width: 30%;
+  
+}
+
+.fotografo{
+    width: 200px;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 50%
+}
+
+.fotografo:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+
+
